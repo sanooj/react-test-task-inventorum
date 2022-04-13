@@ -1,0 +1,20 @@
+@import "./../styles/variables";
+@import "./../styles/mixins";
+@import "./../styles/typo";
+
+.main {
+  display: grid;
+  grid-template-columns: 181px auto;
+  min-height: 100vh;
+  
+  &__section {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.container {
+  padding: 30px 15px;
+  background-color: $desert-storm;
+  flex: 1;
+}

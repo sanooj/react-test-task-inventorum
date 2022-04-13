@@ -1,0 +1,11 @@
+@mixin font-size($sizeValue: 1.6) {
+  font-size: $sizeValue + px;
+  font-size: calc($sizeValue / 10) + rem;
+}
+
+@mixin content-ellipsis-overflow {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,15 @@
+@import "./../../styles/variables";
+@import "./../../styles/mixins";
+@import "./../../styles/typo";
+
+.main {
+  display: grid;
+  grid-template-columns: 181px auto;
+  min-height: 100vh;
+
+  aside {
+    background-image: linear-gradient(180deg, #192842 0%, #382c50 100%);
+    padding: 22px 25px;
+    color: $aluminium-grey;
+  }
+}

@@ -1,0 +1,75 @@
+@import "icomoon";
+@import "variables";
+@import "mixins";
+@import "typo";
+
+// base
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-family: $default-font-family;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	@include font-size(14);
+
+	color: $gun-powder-blue;
+}
+
+input,
+button,
+select,
+textarea {
+	font-family: $default-font-family;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+
+::placeholder {
+	color: $star-dust;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+	outline: none;
+}
+
+.theme-button {
+  &--primary {
+    &.ant-btn-lg.ant-btn-lg {
+      padding: 5px 50px;
+    }
+    
+    &.ant-btn-sm.ant-btn-sm {
+      padding: 5px 10px;
+    }
+  }
+}
+
+// Antd override
+.search-affix-wrapper {
+	width: 100%;
+	display: inline-flex;
+	align-items: center;
+
+	.search-prefix {
+		margin-right: 12px;
+	}
+}

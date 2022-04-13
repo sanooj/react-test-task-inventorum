@@ -1,0 +1,215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Alert HOC renders snapshot 1`] = `
+<div>
+  <div
+    class="main"
+    role="main"
+  >
+    <aside
+      class="side-navigation"
+    >
+      <a
+        class="logo"
+        href="/"
+      >
+        <img
+          alt="Inventorum"
+          data-testid="logo"
+          src="/images/logo.svg"
+        />
+      </a>
+      <nav
+        class="nav"
+        data-testid="navigation"
+      >
+        <a
+          class="nav__item"
+          href="/ponts-of-sale"
+        >
+          <i
+            class="icon-monitor"
+          />
+           
+          Point of sales
+        </a>
+        <a
+          class="nav__item"
+          href="/invoice-returns"
+        >
+          <i
+            class="icon-monitor"
+          />
+           
+          Invoices & returns
+        </a>
+        <a
+          class="nav__item"
+          href="/contacts"
+        >
+          <i
+            class="icon-monitor"
+          />
+           
+          Contacts
+        </a>
+        <a
+          class="nav__item"
+          href="/inventory"
+        >
+          <i
+            class="icon-monitor"
+          />
+           
+          Inventory
+        </a>
+        <a
+          class="nav__item"
+          href="/reports"
+        >
+          <i
+            class="icon-monitor"
+          />
+           
+          Reports
+        </a>
+        <a
+          class="nav__item"
+          href="/settings"
+        >
+          <i
+            class="icon-monitor"
+          />
+           
+          Settings
+        </a>
+        <a
+          class="nav__item"
+          href="/imprint"
+        >
+          <i
+            class="icon-monitor"
+          />
+           
+          Imprint
+        </a>
+      </nav>
+    </aside>
+    <section
+      class="main__section"
+      data-testid="appSection"
+    >
+      <header
+        class="header"
+      >
+        <div
+          class="header__panel header__panel--left"
+        >
+          <i
+            class="icon-burger-menu"
+          />
+          <h2
+            data-testid="mainHeading"
+          >
+            Users
+          </h2>
+        </div>
+        <div
+          class="header__panel header__panel--right"
+        >
+          <i
+            class="user-icon"
+          >
+            <img
+              alt="profile"
+              src="/images/profile-lock.svg"
+            />
+             
+          </i>
+          <a>
+            Patricia Kasse 
+            <i
+              class="icon-triangle"
+            />
+          </a>
+        </div>
+      </header>
+      <div
+        class="container"
+      >
+        <section>
+          <div
+            class="form-field"
+            data-testid="searchField"
+          >
+            <div
+              class="form-field__item form-field__item--search"
+            >
+              <span
+                class="search-affix-wrapper"
+              >
+                <span
+                  class="search-prefix"
+                >
+                  <span
+                    aria-label="search"
+                    class="anticon anticon-search"
+                    role="img"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      data-icon="search"
+                      fill="currentColor"
+                      focusable="false"
+                      height="1em"
+                      viewBox="64 64 896 896"
+                      width="1em"
+                    >
+                      <path
+                        d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0011.6 0l43.6-43.5a8.2 8.2 0 000-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z"
+                      />
+                    </svg>
+                  </span>
+                </span>
+                <input
+                  class="search"
+                  data-testid="searchInput"
+                  placeholder="Search user"
+                  type="search"
+                  value=""
+                />
+              </span>
+            </div>
+            <div
+              class="form-field__item form-field__item--add-button"
+            >
+              <button
+                class="ant-btn ant-btn-round ant-btn-primary ant-btn-lg primary-theme theme-button--primary"
+                data-testid="button"
+                type="button"
+              >
+                <span>
+                  Add
+                </span>
+              </button>
+            </div>
+          </div>
+          <div
+            class="users-panel"
+          >
+            <div
+              class="user-wrapper"
+              data-testid="userWraper"
+            >
+              <div
+                class="loader loader--inline"
+                data-testid="inlineLoader"
+              />
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+  </div>
+</div>
+`;

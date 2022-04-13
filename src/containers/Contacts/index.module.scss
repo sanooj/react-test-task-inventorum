@@ -1,0 +1,32 @@
+@import "./../../styles/variables";
+@import "./../../styles/mixins";
+@import "./../../styles/typo";
+
+.main {
+	display: grid;
+	grid-template-columns: 181px auto;
+	min-height: 100vh;
+}
+
+.form-field {
+	display: flex;
+
+	&__item {
+		&--search {
+			margin-right: 13px;
+			flex: 1;
+			margin-bottom: 10px;
+			background-color: #ebecee;
+			padding: 0 12px;
+			border-radius: 3px;
+
+			input {
+				background-color: transparent;
+				border: 0;
+				height: 35px;
+				width: 100%;
+				@include font-size(13);
+			}
+		}
+	}
+}

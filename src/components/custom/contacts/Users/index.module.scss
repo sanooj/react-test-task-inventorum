@@ -1,0 +1,28 @@
+@import "./../../../../styles/variables";
+@import "./../../../../styles/mixins";
+
+.users-panel {
+	border: 2px solid $platinum;
+	padding: 16px;
+	background-color: $white;
+}
+
+.user-wrapper {
+	background-color: $alabaster;
+	border: 1px solid $dawn-pink;
+}
+
+.user-item {
+	border-bottom: $platinum 1px solid;
+	display: grid;
+	grid-template-columns: 1fr 0.75fr 1fr 1.25fr;
+	background-color: $alabaster;
+	padding: 10px 15px;
+
+  strong {
+    @include font-size(12);
+    
+    font-weight: 400;
+    color: $star-dust;
+  }
+}

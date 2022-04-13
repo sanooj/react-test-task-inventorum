@@ -1,0 +1,69 @@
+@import "./../../../styles/variables";
+@import "./../../../styles/mixins";
+
+.header {
+	padding: 24px 15px;
+	border-bottom: $platinum 1px solid;
+	display: flex;
+	justify-content: space-between;
+
+	&__panel {
+		display: flex;
+		align-items: center;
+
+		&--left {
+			i {
+				margin-right: 14px;
+        cursor: pointer;
+			}
+
+			h2 {
+				margin: 0;
+				padding: 0;
+			}
+		}
+
+    &--right {
+      display: flex;
+      align-items: center;
+
+			i.user-icon {
+        width: 30px;
+        height: 29px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 5px;
+
+				&::before {
+          content: '';
+          position: absolute;
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          border: 4px solid $dark-lilac;
+          z-index: 1;
+        }
+
+        img {
+          position: relative;
+          z-index: 2;
+        }
+			}
+
+			a {
+				@include font-size(13);
+
+        color: $dark-lilac;
+        font-weight: 500;
+        cursor: pointer;
+
+        i {
+          color: $blue-zodiac;
+          @include font-size(9);
+        }
+			}
+		}
+	}
+}

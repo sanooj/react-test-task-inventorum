@@ -1,0 +1,12 @@
+@import "./../../../styles/variables";
+@import "./../../../styles/mixins";
+
+.primary-theme.primary-theme {
+  background-color: $white;
+  color: $paris-green;
+  @include font-size(14);
+
+  height: auto;
+  border-color: $paris-green;
+  padding: 5px 30px;
+}

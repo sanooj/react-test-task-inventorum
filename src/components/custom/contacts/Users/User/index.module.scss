@@ -1,0 +1,46 @@
+@import "./../../../../../styles/variables";
+@import "./../../../../../styles/mixins";
+
+.user-item {
+	border-bottom: $platinum 1px solid;
+	padding: 6px 0;
+	display: grid;
+	grid-template-columns: 1fr 0.75fr 1fr 1.25fr;
+  background-color: $alabaster;
+
+	&__column {
+		border-right: $platinum 1px solid;
+		padding: 0 20px;
+		display: flex;
+		align-items: center;
+
+		&:first-child {
+			padding: 0 20px 0 10px;
+		}
+	}
+
+	&__profile-icon {
+		border-radius: 50%;
+		display: inline-block;
+		overflow: hidden;
+		margin-right: 18px;
+
+		img {
+			object-fit: cover;
+      width: 36px;
+		  height: 36px;
+		}
+	}
+
+	&--inactive {
+		color: $oslo-grey;
+
+		img {
+			filter: grayscale(100%);
+		}
+	}
+  
+  &:not(&--inactive) {
+    cursor: pointer;
+  }
+}
